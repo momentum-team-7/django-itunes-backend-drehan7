@@ -1,0 +1,131 @@
+* {
+  margin: 1%;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+span {
+  border-bottom: 2px dotted rgb(170, 169, 169);
+  width: 100%;
+  font-size: 25px;
+  color: grey;
+}
+
+header {
+  border-bottom: 3px solid #1985a1;
+  color: white;
+}
+
+body {
+  background-color: #46494c;
+}
+
+.music-player {
+  border-top: 2px solid cyan;
+  display: flex;
+  justify-content: center;
+}
+
+figure {
+  display: block;
+}
+
+.all-results {
+  border: 3px solid grey;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.song-container {
+  border: 2px solid grey;
+  display: block;
+  max-width: 60%;
+  width: 20rem;
+  height: fit-content;
+  background-color: #4c5c68;
+  color: white;
+  text-align: center;
+  border-radius: 10%;
+  padding-top: 1%;
+}
+
+.song-container:hover {
+  opacity: 0.8;
+  border: 1px dashed blue;
+}
+.song-container img {
+  border: 2px solid #1985a1;
+  max-width: 100%;
+  width: 60%;
+  height: 60%;
+  margin-bottom: 5%;
+}
+
+.hide_div {
+  display: none;
+}
+
+.user-input-container {
+  text-align: center;
+  /* border: 2px solid purple; */
+}
+
+input {
+  border-radius: 40px;
+  padding-left: 1%;
+}
+.release-date {
+  font-size: 14px;
+  color: grey;
+}
+
+.user-input {
+  width: 25rem;
+  font-size: 20px;
+  height: 3rem;
+}
+
+.limit-input {
+  height: 3rem;
+  width: 9rem;
+  font-size: 20px;
+}
+
+.bottom-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-top-button,
+.load-more-button {
+  display: block;
+  background-color: red;
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  border-radius: 40px;
+  width: 7%;
+  color: white;
+  font-weight: 500;
+}
+
+.load-more-button {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.search-button {
+  background-color: #1985a1;
+  color: white;
+  font-size: 20px;
+  width: 5rem;
+  height: 3rem;
+  border-radius: 40px;
+}

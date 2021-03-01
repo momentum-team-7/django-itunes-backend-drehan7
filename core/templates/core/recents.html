@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">iTunes Search App</a></h1>
+  </header>
+
+  
+
+  <div class="all-results">
+    <span>Recents:</span>
+    {% for song in recents %}
+    {{ song}}
+    {% endfor %}
+
+  </div>
+
+
+  <div class="bottom-buttons">
+    <button class="back-top-button">Top</button>
+    <button class="load-more-button">More>></button>
+  </div>
+</body>
+</html>
